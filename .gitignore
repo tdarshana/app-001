@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.svelte-kit/
+build/
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Convex
+convex/_generated/
+
+# Capacitor
+android/
+ios/
+/android
+/ios
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# Misc
+*.local
